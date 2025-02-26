@@ -276,6 +276,41 @@ button.btn-close {
     margin-bottom: 0;
 }
 
+.button-page {
+    background-color: #35909f;
+    border: 2px solid #35909f;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.button-page:hover {
+    border: 2px solid #35909f;
+    color: #35909f;
+    background-color: #fff;
+}
+
+.footer-flex-block .header-logo a:hover span {
+    color: #35909f;
+}
+
+.accordion {
+    margin-bottom: 60px;
+}
+
+.accordion-button {
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.accordion-body h2,
+.accordion-body h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 @media(max-width:1199px) {
     .header-logo a {
         white-space: nowrap;
