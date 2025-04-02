@@ -311,6 +311,40 @@ button.btn-close {
     font-weight: bold;
 }
 
+.input-checkbox {
+    display: none;
+}
+
+.input-checkbox+.button-types-item {
+    border: 2px solid #35909f;
+    background-color: #fff;
+    padding: 10px;
+    height: 100%;
+}
+
+.input-checkbox:checked+.button-types-item {
+    background-color: #35909f;
+    color: #fff;
+
+}
+
+.flex-buttons-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.checkbox-block {
+    width: 24%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.buttons-type-js {
+    margin-bottom: 100px;
+}
+
 @media(max-width:1199px) {
     .header-logo a {
         white-space: nowrap;
@@ -350,6 +384,10 @@ button.btn-close {
 
     .footer-flex-block {
         flex-wrap: wrap;
+    }
+
+    .checkbox-block {
+        width: 49%;
     }
 }
 
@@ -434,5 +472,9 @@ button.btn-close {
 
     .header-adress {
         margin: 20px 0;
+    }
+
+    .checkbox-block {
+        width: 100%;
     }
 }
