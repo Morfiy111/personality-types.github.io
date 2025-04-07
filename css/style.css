@@ -345,6 +345,14 @@ button.btn-close {
     margin-bottom: 100px;
 }
 
+.text-out {
+    display: none;
+}
+
+.checkbox-block9 {
+    margin-right: 10px;
+}
+
 @media(max-width:1199px) {
     .header-logo a {
         white-space: nowrap;
