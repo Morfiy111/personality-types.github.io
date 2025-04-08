@@ -353,6 +353,15 @@ button.btn-close {
     margin-right: 10px;
 }
 
+.input-checkbox:disabled+.button-types-item,
+.checkbox-visible:disabled {
+    cursor: no-drop;
+}
+
+.checkbox-visible {
+    display: inline-block;
+}
+
 @media(max-width:1199px) {
     .header-logo a {
         white-space: nowrap;

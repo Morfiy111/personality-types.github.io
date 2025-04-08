@@ -14,16 +14,19 @@ $(document).ready(function () {
     });
 });
 
-let limit = 2;
-var checks = document.querySelectorAll(".input-checkbox");
-var max = 2;
-for (var i = 0; i < checks.length; i++)
-    checks[i].onclick = selectiveCheck;
-function selectiveCheck(event) {
-    var checkedChecks = document.querySelectorAll(".input-checkbox:checked");
-    if (checkedChecks.length >= max + 1)
-        return false;
-}
+$(".input-checkbox").on("click", function () {
+
+    if ($(".input-checkbox:checked").length >= 2) { // Не больше 2-х checkbox
+
+        $(".input-checkbox:not(:checked)").attr("disabled", true);
+
+    } else {
+
+        $(".input-checkbox:disabled").attr("disabled", false);
+
+    }
+
+});
 
 const checkbox = document.querySelector('.checkbox-block1');
 const checkbox2 = document.querySelector('.checkbox-block2');
@@ -35,56 +38,44 @@ const checkbox7 = document.querySelector('.checkbox-block7');
 const checkbox8 = document.querySelector('.checkbox-block8');
 const checkbox9 = document.querySelector('.checkbox-block9');
 const checkboxesBlock = document.querySelector('.flex-buttons-types');
+
 checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox6.checked) {
         document.querySelector('.text-out1').style.display = 'block';
     } else {
         document.querySelector('.text-out1').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox2.checked) {
         document.querySelector('.text-out2').style.display = 'block';
     } else {
         document.querySelector('.text-out2').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox3.checked) {
         document.querySelector('.text-out3').style.display = 'block';
     } else {
         document.querySelector('.text-out3').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox7.checked) {
         document.querySelector('.text-out4').style.display = 'block';
     } else {
         document.querySelector('.text-out4').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox5.checked) {
         document.querySelector('.text-out5').style.display = 'block';
     } else {
         document.querySelector('.text-out5').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox9.checked) {
         document.querySelector('.text-out6').style.display = 'block';
     } else {
         document.querySelector('.text-out6').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
     if (checkbox.checked && checkbox8.checked) {
         document.querySelector('.text-out7').style.display = 'block';
     } else {
         document.querySelector('.text-out7').style.display = 'none';
     }
-});
-checkboxesBlock.addEventListener('click', function () {
+
     if (checkbox.checked && checkbox4.checked) {
         document.querySelector('.text-out8').style.display = 'block';
     } else {
