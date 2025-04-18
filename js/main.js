@@ -81,4 +81,139 @@ checkboxesBlock.addEventListener('click', function () {
     } else {
         document.querySelector('.text-out8').style.display = 'none';
     }
+    if (checkbox2.checked && checkbox4.checked) {
+        document.querySelector('.text-out9').style.display = 'block';
+    } else {
+        document.querySelector('.text-out9').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox3.checked) {
+        document.querySelector('.text-out10').style.display = 'block';
+    } else {
+        document.querySelector('.text-out10').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox3.checked) {
+        document.querySelector('.text-out11').style.display = 'block';
+    } else {
+        document.querySelector('.text-out11').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox4.checked) {
+        document.querySelector('.text-out12').style.display = 'block';
+    } else {
+        document.querySelector('.text-out12').style.display = 'none';
+    }
+    if (checkbox3.checked && checkbox6.checked) {
+        document.querySelector('.text-out13').style.display = 'block';
+    } else {
+        document.querySelector('.text-out13').style.display = 'none';
+    }
+    if (checkbox4.checked && checkbox6.checked) {
+        document.querySelector('.text-out14').style.display = 'block';
+    } else {
+        document.querySelector('.text-out14').style.display = 'none';
+    }
+    if (checkbox3.checked && checkbox5.checked) {
+        document.querySelector('.text-out15').style.display = 'block';
+    } else {
+        document.querySelector('.text-out15').style.display = 'none';
+    }
+    if (checkbox4.checked && checkbox5.checked) {
+        document.querySelector('.text-out16').style.display = 'block';
+    } else {
+        document.querySelector('.text-out16').style.display = 'none';
+    }
+    if (checkbox3.checked && checkbox9.checked) {
+        document.querySelector('.text-out17').style.display = 'block';
+    } else {
+        document.querySelector('.text-out17').style.display = 'none';
+    }
+    if (checkbox4.checked && checkbox9.checked) {
+        document.querySelector('.text-out18').style.display = 'block';
+    } else {
+        document.querySelector('.text-out18').style.display = 'none';
+    }
+    if (checkbox3.checked && checkbox4.checked) {
+        document.querySelector('.text-out19').style.display = 'block';
+    } else {
+        document.querySelector('.text-out19').style.display = 'none';
+    }
+    if (checkbox3.checked && checkbox8.checked) {
+        document.querySelector('.text-out20').style.display = 'block';
+    } else {
+        document.querySelector('.text-out20').style.display = 'none';
+    }
+    if (checkbox4.checked && checkbox8.checked) {
+        document.querySelector('.text-out21').style.display = 'block';
+    } else {
+        document.querySelector('.text-out21').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox6.checked) {
+        document.querySelector('.text-out22').style.display = 'block';
+    } else {
+        document.querySelector('.text-out22').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox7.checked) {
+        document.querySelector('.text-out23').style.display = 'block';
+    } else {
+        document.querySelector('.text-out23').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox5.checked) {
+        document.querySelector('.text-out24').style.display = 'block';
+    } else {
+        document.querySelector('.text-out24').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox9.checked) {
+        document.querySelector('.text-out25').style.display = 'block';
+    } else {
+        document.querySelector('.text-out25').style.display = 'none';
+    }
+    if (checkbox2.checked && checkbox8.checked) {
+        document.querySelector('.text-out26').style.display = 'block';
+    } else {
+        document.querySelector('.text-out26').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox6.checked) {
+        document.querySelector('.text-out27').style.display = 'block';
+    } else {
+        document.querySelector('.text-out27').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox5.checked) {
+        document.querySelector('.text-out28').style.display = 'block';
+    } else {
+        document.querySelector('.text-out28').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox9.checked) {
+        document.querySelector('.text-out29').style.display = 'block';
+    } else {
+        document.querySelector('.text-out29').style.display = 'none';
+    }
+    if (checkbox7.checked && checkbox8.checked) {
+        document.querySelector('.text-out30').style.display = 'block';
+    } else {
+        document.querySelector('.text-out30').style.display = 'none';
+    }
+    if (checkbox5.checked && checkbox6.checked) {
+        document.querySelector('.text-out31').style.display = 'block';
+    } else {
+        document.querySelector('.text-out31').style.display = 'none';
+    }
+    if (checkbox5.checked && checkbox9.checked) {
+        document.querySelector('.text-out32').style.display = 'block';
+    } else {
+        document.querySelector('.text-out32').style.display = 'none';
+    }
+    if (checkbox5.checked && checkbox8.checked) {
+        document.querySelector('.text-out33').style.display = 'block';
+    } else {
+        document.querySelector('.text-out33').style.display = 'none';
+    }
+    if (checkbox6.checked && checkbox8.checked) {
+        document.querySelector('.text-out34').style.display = 'block';
+    } else {
+        document.querySelector('.text-out34').style.display = 'none';
+    }
+    if (checkbox8.checked && checkbox9.checked) {
+        document.querySelector('.text-out35').style.display = 'block';
+    } else {
+        document.querySelector('.text-out35').style.display = 'none';
+    }
 });
