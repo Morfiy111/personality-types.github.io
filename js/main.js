@@ -216,4 +216,9 @@ checkboxesBlock.addEventListener('click', function () {
     } else {
         document.querySelector('.text-out35').style.display = 'none';
     }
+    if (checkbox6.checked && checkbox9.checked) {
+        document.querySelector('.text-out36').style.display = 'block';
+    } else {
+        document.querySelector('.text-out36').style.display = 'none';
+    }
 });
